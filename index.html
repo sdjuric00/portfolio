@@ -2,9 +2,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Srđan Đurić</title>
 </head>
 <body>
-    <h1>Proba</h1>
+    
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">Srđan Đurić</a>
+    
+            <img id="mobile-open-btn" class="mobile-menu" src="assets/images/menu.svg" alt="Open Navigation">
+    
+            <nav>
+                <img id="mobile-exit-btn" class="mobile-menu-exit" src="assets/images/exit.svg" alt="Close Navigation">
+    
+                <ul class="secondary-nav" id="menu-opt">
+                    <li><a href="#about"><span class="nav-num">01.</span> About</a></li>
+                    <li><a href="#projects"><span class="nav-num">02.</span> Projects</a></li>
+                    <li><a href="#contact"><span class="nav-num">03.</span> Contact</a></li>
+                    <li class="resume-button"><a href="assets/images/srdjan_djuric_resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="home">
+        <div class="container">
+            <div class="basic-info">
+                <p class="animated-intro green-intro">
+                    <span>Hello</span>
+                    <span>World,</span>
+                    <span>my</span>
+                    <span>name</span>
+                    <span>is</span>
+                </p>
+                <h1 class="animated-intro"><span>Srđan Đurić</span></h1>
+                <p class="animated-intro"><span>Final</span><span>&nbsp;year software</span><span>&nbsp;engineering</span><br /><span>&nbsp;student</span><span>&nbsp;at FTN in Novi Sad,</span><span>&nbsp;Serbia</span></p>
+            </div>
+            
+            <div class="photo-block">
+                <img class="profile-pic" src="assets/images/profile_cv.png" alt="Profile pic" />
+                
+                <div class="socials-block">
+                    <a href="https://github.com/sdjuric00" target="_blank"><img src="assets/images/github_white.svg" alt="GitHub logo" /></a>
+                    <a href="https://www.linkedin.com/in/srdjan-djuric/" target="_blank"><img src="assets/images/linkedin_white.svg" alt="LinkedIn logo" /></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2><span class="title-num">01.</span> About Me</h2>
+            <p>
+                Hello there, my name is Srđan and I'm final year student at Faculty of Technical Sciences in Novi Sad.
+                As a child, I developed a passion for strategy games that demanded careful planning and critical thinking. This love for
+                strategic challenges propelled me toward a career in software engineering. I see programming as one big playground, with enough creativity the possibilities are endless.
+            </p>
+
+            <p>
+                I have a strong passion for technology as a whole, with a particular focus on <b>Backend</b> development. <b>Java</b> holds a special
+                place in my heart as my first love in programming. Apart from backend development, I find myself drawn to the fields of
+                <b>ML</b> and <b>Product Management</b>. During my free time, I enjoy conducting research on these subjects, further
+                fueling my interest.
+            </p>
+            <p>
+                When I'm not in virtual world I'm mostly going out with friends, walking in nature or playing with my dog. 🐶☘️
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2><span class="title-num">02.</span> Projects</h2>
+
+            <div class="projects-carosel">
+                <div class="project-block">
+                    <h3>SerbUber</h3>
+                    <p class="content">
+                        Web Application for ride reservations in Novi Sad area. I worked on user registration and verification, live
+                        chat messaging and notifications
+                        system via <b>WebSockets</b>, payment via <b>PayPal</b>, admin reports, user profile CRUD operations, and more.
+                    </p>
+                    <p class="skills">
+                    <ul>
+                        <li><span>Java Spring Boot</span></li>
+                        <li><span>Angular</span></li>
+                        <li><span>PostgreSQL</span></li>
+                        <li><span>Material</span></li>
+                    </ul>
+                    </p>
+                    <p class="links" style="display: flex;">
+                        <a href="https://github.com/zoricavukovic/NWS_KTS_Project" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                <title>GitHub</title>
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=6cuzOIhj3TQ&ab_channel=ZoricaVukovic" target="_blank">
+                            <svg id="youtube" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                                <path
+                                    d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z">
+                                </path>
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="project-block">
+                    <h3>Machine Learning</h3>
+                    <p class="content">
+                        Participated in solving 6 different problems. Analyzed different data sets and tried different preprocessing
+                        techniques.
+                        Tried different methods like <b>Linear regression, Ensemble, SVM and more.</b> Analyzed result and wrote
+                        reports.
+                    </p>
+                    <p class="skills">
+                    <ul>
+                        <li><span>Python</span></li>
+                        <li><span>ML algorithms</span></li>
+                        <li><span>Data preprocessing</span></li>
+                    </ul>
+                    </p>
+                    <p class="links">
+                        <a href="https://github.com/sdjuric00/machine-learning-ftn" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                <title>GitHub</title>
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="project-block">
+                    <h3>SA Banking System</h3>
+                    <p class="content">
+                        Knowledge-Based Web Application for request creation and automatic approval of cash credits, overdrafts and
+                        credit cards.
+                        App contains knowledge and set of rules which are written in <b>Drools</b>. Monthly interest and discounts are
+                        calculated based on current state in working memory.
+                    </p>
+                    <p class="skills">
+                    <ul>
+                        <li><span>Java Spring Boot</span></li>
+                        <li><span>Angular</span></li>
+                        <li><span>Drools</span></li>
+                    </ul>
+                    </p>
+                    <p class="links">
+                        <a href="https://github.com/anestejzn/banking-system" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                <title>GitHub</title>
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2><span class="title-num">03.</span> Contact</h2>
+            <div class="content">
+                <h1>Let's get in touch.📫</h1>
+                <p>My email address is <b>srdjandjuric57@gmail.com</b></p>
+                <p>You can find me on <a href="https://www.linkedin.com/in/srdjan-djuric/" target="_blank">LinkedIn</a> and <a href="https://github.com/sdjuric00" target="_blank">GitHub</a>.</p>
+                <p class="copyright">© 2023 Srđan Đurić All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const mobileBtn = document.getElementById('mobile-open-btn')
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-exit-btn');
+        menu = document.getElementById('menu-opt');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+ 
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+        menu.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })  
+
+    </script>
+
+
 </body>
 </html>
