@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 :root {
     --dark-navy: #020c1b;
@@ -88,7 +87,6 @@ nav {
             padding: .5em;
             font-size: 1.2em;
             text-align: left;
-            text-decoration: none !important;
 
             .nav-num {
                 color: var(--green);
@@ -98,6 +96,10 @@ nav {
                 color: var(--green);
             }
         }
+    }
+
+    ul {
+        margin-top: 1.2rem;
     }
 }
 
@@ -211,7 +213,7 @@ section.home .container {
         .socials-block {
             position: absolute;
             bottom: 0;
-            left: 45%;
+            left:45%
         }
     }
 }
@@ -257,6 +259,16 @@ section.projects .container {
         border-radius: 1rem;
         margin: 1rem;
         position: relative;
+        display: flex;
+        flex-direction: column;
+
+        .content {
+            height: 60%;
+        }
+
+        .skills {
+            height: 30%;
+        }
     }
 
     svg {
@@ -357,6 +369,17 @@ section.contact .container {
     }
 }
 
+//galaxy fold
+@media only screen and (max-width: 280px) {
+
+    .socials-block {
+        
+        img {
+            width: 20%;
+        }
+    }
+}
+
 @media only screen and (min-width: 820px) {
     
     section.projects, section.contact {
@@ -369,7 +392,7 @@ section.contact .container {
     
     section.home .container {
         position: relative;
-        height: 80vh;
+        height: 82vh;
 
         .basic-info {
             margin-top: 3rem;
@@ -389,6 +412,13 @@ section.contact .container {
         }
     }
 
+}
+
+@media only screen and (min-height: 1180px) {
+
+    section.home .container {
+        height: 30vh;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
