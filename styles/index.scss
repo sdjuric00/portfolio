@@ -7,7 +7,6 @@
     --lightest-navy: #496dad;
     --slate: #8892b0;
     --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
     --green: #64ffda;
     --transparent-green: rgba(100, 255, 219, 0.139);
 }
@@ -141,7 +140,7 @@ section.home .container {
 
         .animated-intro {
             transform: scale(0.94);
-            animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1);
+            animation: scale 6s forwards cubic-bezier(0.5, 1, 0.89, 1);
 
             span {
                 display: inline-block;
@@ -154,7 +153,7 @@ section.home .container {
             }
 
             span:nth-child(2) {
-                animation: fade-in 0.6s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+                animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
             }
 
             span:nth-child(3) {
@@ -166,7 +165,7 @@ section.home .container {
             }
 
             span:nth-child(5) {
-                animation: fade-in 0.6s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+                animation: fade-in 0.7s 0.10s forwards cubic-bezier(0.11, 0, 0.5, 0);
             }
 
             span:nth-child(6) {
@@ -174,27 +173,27 @@ section.home .container {
             }
 
             span:nth-child(7) {
-                animation: fade-in 0.6s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+                animation: fade-in 0.9s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
             }
 
             span:nth-child(8) {
-                animation: fade-in 0.6s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+                animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
             }
 
             span:nth-child(9) {
-                animation: fade-in 0.6s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+                animation: fade-in 0.10s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
             }
 
             span:nth-child(10) {
-                animation: fade-in 0.6s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+                animation: fade-in 0.6s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
             }
 
             span:nth-child(11) {
-                animation: fade-in 0.6s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+                animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
             }
 
             span:nth-child(12) {
-                animation: fade-in 0.6s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+                animation: fade-in 0.9s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
             }
                                                                                                 
         }
