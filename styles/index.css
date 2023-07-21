@@ -188,6 +188,11 @@ section.home .container .basic-info .animated-intro span:nth-child(12) {
   left: var(--socials-block-left);
 }
 
+img.profile-pic {
+  transform: scale(0.94);
+  animation: scale 1s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
 .title-num {
   color: var(--green);
   font-size: var(--title-num-font);

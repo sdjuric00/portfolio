@@ -227,6 +227,11 @@ section.home .container {
     }
 }
 
+img.profile-pic {
+    transform: scale(0.94);
+    animation: scale 1s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
 .title-num {
     color: var(--green);
     font-size: var(--title-num-font);
@@ -536,3 +541,4 @@ section.contact .container {
         transform: scale(1);
     }
 }
+
