@@ -9,51 +9,57 @@
 </head>
 <body>
     
-    <!-- Navbar -->
-    <div class="navbar">
-        <div class="container">
-            <a class="logo" href="index.html">Srđan Đurić</a>
-    
-            <img id="mobile-open-btn" class="mobile-menu" src="assets/images/menu.svg" alt="Open Navigation">
-    
-            <nav>
-                <img id="mobile-exit-btn" class="mobile-menu-exit" src="assets/images/exit.svg" alt="Close Navigation">
-    
-                <ul class="secondary-nav" id="menu-opt">
-                    <li><a href="#about"><span class="nav-num">01.</span> About</a></li>
-                    <li><a href="#projects"><span class="nav-num">02.</span> Projects</a></li>
-                    <li><a href="#contact"><span class="nav-num">03.</span> Contact</a></li>
-                    <li class="resume-button"><a href="assets/pdf/srdjan_djuric_resume.pdf" target="_blank">Resume</a></li>
-                </ul>
-            </nav>
+    <div class="home-page">
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="container">
+                <a class="logo" href="index.html">Srđan Đurić</a>
+        
+                <img id="mobile-open-btn" class="mobile-menu" src="assets/images/menu.svg" alt="Open Navigation">
+        
+                <nav>
+                    <img id="mobile-exit-btn" class="mobile-menu-exit" src="assets/images/exit.svg" alt="Close Navigation">
+        
+                    <ul class="secondary-nav" id="menu-opt">
+                        <li><a href="#about"><span class="nav-num">01.</span> About</a></li>
+                        <li><a href="#projects"><span class="nav-num">02.</span> Projects</a></li>
+                        <li><a href="#contact"><span class="nav-num">03.</span> Contact</a></li>
+                        <li class="resume-button"><a href="assets/pdf/srdjan_djuric_resume.pdf" target="_blank">Resume</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <section class="home">
+            <div class="container">
+                <div class="basic-info">
+                    <p class="animated-intro green-intro">
+                        <span>Hello</span>
+                        <span>World,</span>
+                        <span>my</span>
+                        <span>name</span>
+                        <span>is</span>
+                    </p>
+                    <h1 class="animated-intro"><span>Srđan Đurić</span></h1>
+                    <p class="animated-intro"><span>Final</span><span>&nbsp;year
+                            software</span><span>&nbsp;engineering</span><br /><span>&nbsp;student</span><span>&nbsp;at FTN in
+                            Novi Sad,</span><span>&nbsp;Serbia</span></p>
+                </div>
+        
+            </div>
+        </section>
+
+        <div class="photo-block">
+            <img class="profile-pic" src="assets/images/profile_cv.png" alt="Profile pic" />
+        
+            <div class="socials-block">
+                <a href="https://github.com/sdjuric00" target="_blank"><img src="assets/images/github_white.svg"
+                        alt="GitHub logo" /></a>
+                <a href="https://www.linkedin.com/in/srdjan-djuric/" target="_blank"><img src="assets/images/linkedin_white.svg"
+                        alt="LinkedIn logo" /></a>
+            </div>
         </div>
     </div>
-
-    <section class="home">
-        <div class="container">
-            <div class="basic-info">
-                <p class="animated-intro green-intro">
-                    <span>Hello</span>
-                    <span>World,</span>
-                    <span>my</span>
-                    <span>name</span>
-                    <span>is</span>
-                </p>
-                <h1 class="animated-intro"><span>Srđan Đurić</span></h1>
-                <p class="animated-intro"><span>Final</span><span>&nbsp;year software</span><span>&nbsp;engineering</span><br /><span>&nbsp;student</span><span>&nbsp;at FTN in Novi Sad,</span><span>&nbsp;Serbia</span></p>
-            </div>
-            
-            <div class="photo-block">
-                <img class="profile-pic" src="assets/images/profile_cv.png" alt="Profile pic" />
-                
-                <div class="socials-block">
-                    <a href="https://github.com/sdjuric00" target="_blank"><img src="assets/images/github_white.svg" alt="GitHub logo" /></a>
-                    <a href="https://www.linkedin.com/in/srdjan-djuric/" target="_blank"><img src="assets/images/linkedin_white.svg" alt="LinkedIn logo" /></a>
-                </div>
-            </div>
-            
-        </div>
-    </section>
 
     <section id="about" class="about">
         <div class="container">
@@ -103,13 +109,6 @@
                                 <title>GitHub</title>
                                 <path
                                     d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                                </path>
-                            </svg>
-                        </a>
-                        <a href="https://www.youtube.com/watch?v=6cuzOIhj3TQ&ab_channel=ZoricaVukovic" target="_blank">
-                            <svg id="youtube" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
-                                <path
-                                    d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z">
                                 </path>
                             </svg>
                         </a>
